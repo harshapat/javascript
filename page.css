@@ -1,0 +1,405 @@
+div a { text-decoration: none; }
+
+/* Page Menu*/
+#pageMenu {
+    padding: 0; 
+    border: 0;
+    float: left;
+}
+
+#pageMenu div, #tabMenu div {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 5px;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    border: 1px solid #014165;
+    font-size: 10px;    
+}
+
+.pageButtonSelected {
+    background: url("../images/blue_button.jpg") repeat scroll 0 0 #004067;
+    color: #FFFFFF;
+    cursor: default;
+}
+
+.pageButton {
+    background-color: #C1D1E0;
+    color: #014165;
+}
+
+.pageButton:hover {
+    background: url(../images/TTVButton.jpg) #6699CC;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#pageMenu_splitter {
+    background-color: #004067;
+}
+/* end Page Menu*/
+
+/* Tab Menu*/
+#tabMenu {
+    padding: 0; 
+    border: 0; 
+    background-color: #004067;
+}
+
+#tabMenu .tabButtonSelected {
+    background-color: #FFFFFF;
+    color: #003366;
+    font-weight: bold;
+    border-bottom: 1px solid #FFFFFF;
+    cursor: default;
+}
+
+.tabButton {
+    background-color: #C1D1E0;
+    color: #014165;
+}
+
+.tabButton:hover {
+    background-color: #F0F0F0;
+    color: #0099CC;
+    cursor: pointer;
+}
+/* end Tab Menu*/
+
+/* Status Alarm*/
+#statusAlarm {
+    border-collapse: collapse;
+    border-style:  outset;
+    border-width: 2px;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 74px;
+    height: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    
+    /*for demo only*/
+    background-color: #00F500;
+}
+/* end Status Alarm*/
+
+
+.withoutMenuBar {
+    padding: 0 0 43px 0;
+}
+
+/* StoredConfiguration Page*/
+#storedConfigDataGrid .dojoxGridCellFocus {
+    
+    border-bottom: 1px solid #BFD6EB !important;
+    border-top: 1px solid #BFD6EB !important;
+    border-left: 0px none !important;
+    border-right: 0px none !important;
+}
+
+#configurationWorkbench .dijitButtonNode {
+    width: 110px;
+}
+
+#configurationWorkbench table tr {
+    height: 30px;
+}
+/* end StoredConfiguration Page*/
+
+/* Standard dialog styles */
+.dijitDialogUnderlay {
+    background-color: #000000 !important;
+}
+#loaderDialog_underlay {
+    background-color: #eee !important;
+}
+.viperDialog {
+    -webkit-border-top-left-radius: 5px !important;
+    -webkit-border-top-right-radius: 5 !important;
+    -moz-border-radius-topleft: 5px !important;
+    -moz-border-radius-topright: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55) !important;
+    word-wrap: break-word;
+}
+.viperDialogTitleBar {
+    -webkit-border-top-left-radius: 5px !important;
+    -webkit-border-top-right-radius: 5px !important;
+    -moz-border-radius-topleft: 5px !important;
+    -moz-border-radius-topright: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    display: block !important;
+    background: url("../images/widget-header-bg.png") repeat-x !important;
+    color: #ffffff !important;
+    padding: 2px !important;
+    border: 0 none !important;
+}
+.viperDialogTitle {
+    font-size: 12px !important;
+    height: 18px !important;
+    margin: 0px !important;
+    padding: 0px 10px !important;
+}
+/* end popup Wizard */
+
+/* Bitrate widgets*/
+.bitrates table td {
+    padding: 5px;
+}
+.bitrates textarea {
+    font: 10px Myriad,Tahoma,Arial,clean,sans-serif
+}
+
+.bitrates .dijitTitlePane {
+    padding-top: 20px;
+}
+
+.bitrateHighlights {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: lightGray;
+}
+/*end Bitrate widgets*/
+
+/* Tree Node (for DEMO only) */
+.claro .disabledTreeNode, .claro .disabledTreeNode.dijitTreeRowSelected, .claro .disabledTreeNode.dijitTreeHover {
+    color: grey;
+}
+
+.disabledTreeNodeTSIcon {
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+}
+
+.disabledTreeNodeIcon {
+    background-image: url('../../dojo/viperdojo-1.6.1/icons/images/commonIconsObjActDisabled.png');
+}
+/* end Tree Node (for DEMO only) */
+
+/* Alarm Severity Colors */
+.clearedColor h2, .clearedRowColor { border-left: 10px solid #308330; }
+.warningColor h2, .warningRowColor { border-left: 10px solid #C8C83E; }
+.minorColor h2, .minorRowColor { border-left: 10px solid #FFB400; }
+.majorColor h2, .majorRowColor { border-left: 10px solid #FF8000; }
+.criticalColor h2, .criticalRowColor { border-left: 10px solid #A01610; }
+
+.gridLocationCell td:first-child {
+    height: 100%;
+}
+
+.severityCellChanged {
+    color: orange;
+    font-weight: bold;
+}
+
+.severityColor {
+    vertical-align: middle;
+    height: 90%;
+    display: inline-table;
+    margin-right: 5px;
+}
+/* end Alarm Severity Colors */
+
+/* Tab Container without border */
+.tabContainerWithoutBorder .dijitTabContainerTop-container {
+    border: 0 none !important
+}
+/* end Tab Container without border */
+
+/* License page */
+#uploadForm .dijitButtonNode {
+    width: 94px;
+}
+/* end License page */
+
+/* Device Configuration Page */
+#empty {
+    color: #404040;
+}
+
+.dijitIconEricssonFolderOpen,
+.dijitIconEricssonFolderClosed ,
+.dijitEricssonFolderOpened , 
+.dijitEricssonFolderClosed  {
+    background-image: url('../../dojo/viperdojo-1.6.1/icons/images/commonIconsObjActEnabled.png'); 
+    width: 16px;
+    height: 16px;
+}
+
+.dijitIconEricssonFolderClosed, .dijitEricssonFolderClosed { background-position: -512px; }
+.dijitIconEricssonFolderOpen, .dijitEricssonFolderOpened { background-position: -528px; }
+
+/* Help widget */
+#helpContent h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000097;
+    height: auto;
+    background: none;
+    padding: 20px 0px 5px 0px;
+    border-bottom: 1px solid;
+}
+
+#helpContent h2, #helpContent h3 {
+    font-weight: bold;
+    color: #000097;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+#helpContent .Text {
+    padding: 5px;
+    margin: 0px;
+    text-align: justify;
+}
+
+/* Bitrate tracking error dialog */
+.bitrateTracking:first-Child {
+    padding: 0px;
+    color: black;
+}
+
+.bitrateTracking:nth-child(2) {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.bitrateTracking {
+    padding-left: 5px;
+    color: #888888;
+}
+
+.bitrateTracking span {
+    float: right;
+    margin-right: 80px;
+}
+.wizardHeader {
+    background-color: #ECECEC
+}
+.wizardHeaderTitle {
+    font-weight: bold;
+}
+.wizardHeaderDescription {
+}
+.table {
+    border: 0px none;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+.tableHeaderBar {
+    background: url("../images/widget-header-bg.png") repeat-x;
+    color: #ffffff;
+    border: 0px none;
+}
+.tableTopLeft {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+.tableTopRight {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+.tableHeader {
+    font-size: 12px;
+    height: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+.tableShadedRow {
+    background-color: #cbd6e3;
+}
+.tableControlHostCell {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+.transcodeTableHeaderPidColumn {
+    width: 60px;
+    padding-left: 10px;
+}
+.transcodeTableHeaderComponentColumn {
+    width: 140px;
+    padding-left: 10px;
+}
+.transcodeTableHeaderOption {
+    width: 100px;
+    text-align: center;
+}
+.transcodeTableOptionCell {
+    padding: 4px;
+    text-align: center;
+}
+.transcodeTableComponentCell {
+    padding: 4px 4px 4px 10px;
+}
+.dialogPadding {
+    padding: 12px !important;
+}
+.unpadded {
+    padding: 0px !important;
+}
+.dialogHalfVertSpacing {
+    margin-bottom: 4px !important;
+}
+.dialogSingleVertSpacing {
+    margin-bottom: 8px !important;
+}
+.dialogDoubleVertSpacing {
+    margin-bottom: 16px !important;
+}
+.dialogSingleHorzSpacing {
+    margin-right: 8px !important;
+}
+.dialogDoubleHorzSpacing {
+    margin-right: 16px !important;
+}
+.dialogSingleIndent {
+    margin-left: 16px !important;
+}
+.dialogDoubleIndent {
+    margin-left: 32px !important;
+}
+.dialogRadioButtons {
+    display: inline-block;
+}
+.dialogRadioButtonLabel {
+    float: left;
+}
+.selectLabel {
+    position: relative;
+    top: 3px !important;
+}
+.checkBoxLabel {
+    position: relative;
+    top: 1px !important;
+}
+
+/* Voyager Dashboard link */
+#linksContainer {
+    float: right;
+    line-height: 28px;
+    margin: 0px 15px;
+}
+
+#linksContainer a {
+    color: #00285E;
+    text-decoration: underline;
+}
